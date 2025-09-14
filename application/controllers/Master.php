@@ -70,7 +70,7 @@
          // Run validation
          $this->form_validation->set_message('required', 'The %s field is required.');
      
-         if (form_validation_run() === FALSE) {
+         if ($this->form_validation->run() == FALSE) {
             $validationErrors = form_validation_errors();
             echo json_encode(array('status' => 'error', 'message' => $validationErrors));
             return;
