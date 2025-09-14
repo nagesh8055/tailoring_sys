@@ -30,7 +30,7 @@
             <div class="row">
               <div class="col-12">
                 <div class="mb-5">
-                  <h3>Log in</h3>
+                  <h3>Log in Tailor Demo</h3>
                 </div>
               </div>
             </div>
